@@ -49,7 +49,7 @@ def move_file(dest, entry, name):
 
 
 
-class FileMover(FileSystenEventHandler):
+class FileMover(FileSystemEventHandler):
     # ? THIS FUNCTION WILL RUN WHENEVER THERE IS A CHANGE IN "source_dir"
     def on_modified(self, event):
         with scandir(source_dir) as entries:
