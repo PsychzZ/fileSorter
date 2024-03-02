@@ -1,7 +1,7 @@
 from os import scandir, rename
 from os.path import splitext, exists, join
 from shutil import move
-from time import sleep
+import time
 import datetime
 import logging
 
